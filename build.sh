@@ -23,4 +23,4 @@ cd ..
 
 #tar --exclude 'biobtree-conf/.git' --exclude 'biobtree-conf/build.sh' --exclude 'biobtree-conf/.gitignore' --exclude 'biobtree-conf/notes.txt' -zcvf biobtree-conf-0.99.1.tar.gz biobtree-conf 
 
-zip -9 -r --exclude=*.git* --exclude=*build.sh --exclude=*notes.txt --exclude=*.DS_Store* biobtree-conf-$1.zip biobtree-conf/
+zip -9 -r --exclude=*.git* --exclude=*build.sh --exclude=*notes.txt --exclude=*.DS_Store* biobtree-conf-$1.zip *
