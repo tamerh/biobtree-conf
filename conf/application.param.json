@@ -1,5 +1,5 @@
 {
-	"conf_version": "0.99.3",
+	"conf_version": "0.99.4",
 	"rootDir": "./",
 	"uniprot_ftp": "UK",
 	"uniprot_ftp_Switzerland": "ftp.expasy.org:21",
@@ -33,5 +33,6 @@
 	"maxSearchResult": "10",
 	"mapFilterTimeoutDuration": "120",
 	"cacheMaxEntrySize": "25000",
-	"cacheHardMaxSize": "1024"
+	"cacheHardMaxSize": "1024",
+	"disableEnsemblReleaseCheck": "y"
 }
