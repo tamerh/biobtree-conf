@@ -61,7 +61,7 @@
     "plantsUrl": "http://plants.ensembl.org/Multi/Search/Results?species=all;idx=;q=£{id};;site=ensemblunit",
     "protistsUrl": "http://protists.ensembl.org/Multi/Search/Results?species=all;idx=;q=£{id};;site=ensemblunit",
     "hasFilter": "yes",
-    "attrs": "start,end,strand,seq_region_name"
+    "attrs": "start,end,strand,seq_region"
   },
   "ortholog": {
     "name": "Ortholog",
@@ -76,7 +76,7 @@
     "url": "https://www.ensembl.org/Multi/Search/Results?q=£{id};site=ensembl_all",
     "linkdataset": "ensembl",
     "hasFilter": "yes",
-    "attrs": "name,description,start,end,biotype,genome,strand,seq_region_name,branch"
+    "attrs": "name,description,start,end,biotype,genome,strand,seq_region,branch"
   },
   "transcript": {
     "name": "Transcript",
@@ -88,7 +88,7 @@
     "plantsUrl": "http://plants.ensembl.org/Multi/Search/Results?species=all;idx=;q=£{id};;site=ensemblunit",
     "protistsUrl": "http://protists.ensembl.org/Multi/Search/Results?species=all;idx=;q=£{id};;site=ensemblunit",
     "hasFilter": "yes",
-    "attrs": "name,start,end,biotype,strand,seq_region_name,branch"
+    "attrs": "name,start,end,biotype,strand,seq_region,utr5Start,utr5End,utr3Start,utr3End,source"
   },
   "expressionatlas": {
     "aliases": "ExpressionAtlas",
@@ -1387,10 +1387,13 @@
     "hasFilter": "yes",
     "attrs": "type,name,[]synonyms"
   },
-  "eprotein": {
-    "name": "Ensembl Protein",
+  "cds": {
+    "aliases": "eprotein",
+    "name": "CDS",
     "id": "294",
-    "url": "https://www.ensembl.org/Multi/Search/Results?q=£{id};site=ensembl_all"
+    "url": "https://www.ensembl.org/Multi/Search/Results?q=£{id};site=ensembl_all",
+    "hasFilter": "yes",
+    "attrs": "start,end,strand,seq_region,frame"
   },
   "affy_unibasa_gossypiisysyng001a": {
     "name": "affy_unibasa_gossypiisysyng001a",

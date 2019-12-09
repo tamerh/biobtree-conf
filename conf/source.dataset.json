@@ -29,7 +29,7 @@
     "path": "ensembl.json",
     "useLocalFile": "no",
     "hasFilter": "yes",
-    "attrs": "name,description,start,end,biotype,genome,strand,seq_region_name,branch"
+    "attrs": "name,description,start,end,biotype,genome,strand,seq_region,branch"
   },
   "taxonomy": {
     "id": "3",
