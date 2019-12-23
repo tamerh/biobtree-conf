@@ -1,5 +1,5 @@
 {
-	"conf_version": "0.99.5",
+	"conf_version": "0.99.6",
 	"rootDir": "./",
 	"uniprot_ftp": "UK",
 	"uniprot_ftp_Switzerland": "ftp.expasy.org:21",
