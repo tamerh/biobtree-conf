@@ -67,7 +67,7 @@
     "name": "Ortholog",
     "id": "40",
     "url": "https://www.ensembl.org/Multi/Search/Results?q=£{id};site=ensembl_all",
-    "linkdatasetNot": "ensembl",
+    "linkdataset": "ensembl",
     "hasFilter": "yes"
   },
   "paralog": {
