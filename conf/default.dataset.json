@@ -1415,5 +1415,10 @@
     "linkdataset": "eco",
     "hasFilter": "yes",
     "attrs": "type,name,[]synonyms"
+  },
+  "agilent_gpl26966":{
+    "name": "agilent_gpl26966",
+    "id": "298",
+    "url": ""
   }
 }
