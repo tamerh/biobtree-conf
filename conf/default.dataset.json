@@ -1420,5 +1420,10 @@
     "name": "agilent_gpl26966",
     "id": "298",
     "url": ""
+  },
+  "affy_hugene_2_1_st_v1":{
+    "name": "affy_hugene_2_1_st_v1",
+    "id": "299",
+    "url":""
   }
 }
