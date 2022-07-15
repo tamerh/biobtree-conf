@@ -1416,14 +1416,19 @@
     "hasFilter": "yes",
     "attrs": "type,name,[]synonyms"
   },
-  "agilent_gpl26966":{
+  "agilent_gpl26966": {
     "name": "agilent_gpl26966",
     "id": "298",
     "url": ""
   },
-  "affy_hugene_2_1_st_v1":{
+  "affy_hugene_2_1_st_v1": {
     "name": "affy_hugene_2_1_st_v1",
     "id": "299",
-    "url":""
+    "url": ""
+  },
+  "affy_ht_hg_u133_plus_pm": {
+    "name": "affy_ht_hg_u133_plus_pm",
+    "id": "300",
+    "url": ""
   }
 }
